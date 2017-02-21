@@ -34,3 +34,5 @@ ngrok http 7777
 6. Start the chattin'
 
  ![ngrok](assets/1_Telegram.png "Hello -> Hello! a.k.a. Echo")
+ 
+ 7. Add some more magic to your Bot.
