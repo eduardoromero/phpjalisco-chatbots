@@ -35,4 +35,4 @@ ngrok http 7777
 
  ![ngrok](assets/1_Telegram.png "Hello -> Hello! a.k.a. Echo")
  
- 7. Add some more magic to your Bot.
+7. Add some more magic to your Bot.
