@@ -17,6 +17,20 @@ $ php -S 0.0.0.0:7777 webhook.php
 ngrok http 7777
 ```
 
+5. Update `$tunnelURL` in the code to match the URL from ngrok.
+
+ ![ngrok](assets/1__ngrok.png "ngrok end-point")
+ 
+ ```php
+ $tunnelURL = 'https://2f4fb27e.ngrok.io/webhook.php';
+ ```
+
+
 5. Go to your ngrok endpoint so that the bot registers.
 
+ ![ngrok](assets/https___2f4fb27e_ngrok_io_webhook_php.png "Registering web hook")
+
+
 6. Start the chattin'
+
+ ![ngrok](assets/1_Telegram.png "Hello -> Hello! a.k.a. Echo")
