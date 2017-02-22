@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mpociot/botman": "^1.4"
+    }
+}
