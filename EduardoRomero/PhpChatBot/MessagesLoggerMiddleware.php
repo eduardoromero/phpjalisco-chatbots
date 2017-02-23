@@ -1,4 +1,5 @@
 <?php
+
 namespace EduardoRomero\PhpChatBot;
 
 use Mpociot\BotMan\Message;
@@ -10,7 +11,10 @@ class MessagesLoggerMiddleware implements MiddlewareInterface
     public function handle(Message &$message, DriverInterface $driver)
     {
         /* we log the Message */
-        error_log(print_r($message, true));
+        $payload  = $message->getPayload();
+        $username = @$payload['chat']['username'];
+
+        error_log( $driver->getName() .'/'. $message->getUser() . ' '. $username . ': ' . $message->getMessage());
     }
 
     public function isMessageMatching(Message $message, $test, $regexMatched)
