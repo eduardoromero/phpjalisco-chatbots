@@ -2,8 +2,9 @@
 
 Chat Bots intro for the PHP Jalisco User Group
 
- You can see the [slides](/presentacion) for this code [here](/presentacion). 
-____
+ You can see the [slides](presentacion/) for this code [here](presentacion/). 
+
+-----
 
 #### Basic Messaging / Webhook cycle
 
