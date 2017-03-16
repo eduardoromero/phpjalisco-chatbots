@@ -2,7 +2,7 @@
 
 Chat Bots intro for the PHP Jalisco User Group
 
- You can see the [slides](presentacion/) for this code [here](presentacion/). 
+ You can see the [slides](https://eduardoromero.github.io/phpjalisco-chatbots/presentacion/) for this code [here](presentacion/).
 
 -----
 
